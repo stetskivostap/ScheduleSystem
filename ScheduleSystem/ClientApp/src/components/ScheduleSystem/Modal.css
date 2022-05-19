@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  height: 37px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.wrapper p {
+  margin: 0;
+  width: 150px;
+}
