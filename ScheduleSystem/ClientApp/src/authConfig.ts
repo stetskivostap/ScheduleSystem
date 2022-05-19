@@ -1,8 +1,8 @@
 export const msalConfig = {
   auth: {
-    clientId: "Enter_the_Application_Id_Here",
-    authority: "Enter_the_Cloud_Instance_Id_Here/Enter_the_Tenant_Info_Here", // This is a URL (e.g. https://login.microsoftonline.com/70a28522-969b-451f-bdb2-abfea3aaa5bf)
-    redirectUri: "Enter_the_Redirect_Uri_Here",
+    clientId: "a866d888-679e-4aa7-94ec-ab3f3d14c0ea",
+        authority: "https://login.microsoftonline.com/f900319b-2330-4f31-8fe8-178f2b0e1fbc", // This is a URL (e.g. https://login.microsoftonline.com/70a28522-969b-451f-bdb2-abfea3aaa5bf)
+    redirectUri: "/schedule",
   },
   cache: {
     cacheLocation: "sessionStorage", // This configures where your cache will be stored
